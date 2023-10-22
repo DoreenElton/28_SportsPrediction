@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Prediction Results</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/multi_step_form.css') }}">
+    </head>
+
+    <body>
+        <div class="results">
+            <label for="result">Overall Rating:</label>
+            <h1 id="result">{{prediction}}</h1>
+        </div>
+    </body>
+
+</html>
